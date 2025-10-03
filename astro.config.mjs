@@ -3,6 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 import vercel from "@astrojs/vercel";
 
 export default defineConfig({
+  site: 'https://josegrcia02.github.io',
   vite: {
     plugins: [tailwindcss()],
   },
